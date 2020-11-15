@@ -16,7 +16,7 @@ inline bool exists (const std::string& name) {
   struct stat buffer;   
   return (stat (name.c_str(), &buffer) == 0); 
 }
-//
+//https://stackoverflow.com/questions/2896600/how-to-replace-all-occurrences-of-a-character-in-string
 std::string ReplaceAll(std::string str, const std::string& from, const std::string& to) {
     size_t start_pos = 0;
     while((start_pos = str.find(from, start_pos)) != std::string::npos) {
