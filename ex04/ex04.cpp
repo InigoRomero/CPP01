@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+//https://www.zator.com/Cpp/E4_2_3.htm
+
 int main()
 {
     std::string str = "HI THIS IS BRAIN";
